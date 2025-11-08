@@ -15,7 +15,7 @@ public class test {
 		long x1 = 1000000;
 		long y1 = 1000000;
 		long z1 = (long)x*(long)y;
-		
+		//long z1 = x1 * y1;
 		System.out.println(z1);
 		
 		

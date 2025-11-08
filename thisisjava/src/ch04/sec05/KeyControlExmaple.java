@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class KeyControlExmaple {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);     // scanner 객체 생성
 		boolean run = true;
 		int speed = 0;
 		
@@ -14,7 +14,7 @@ public class KeyControlExmaple {
 			System.out.println("-------------------");
 			System.out.print("선택: ");
 		
-			String strNum = scanner.nextLine();
+			String strNum = scanner.nextLine();		  // scanner 문자열 입력
 		
 			if(strNum.equals("1")) {
 				speed++;

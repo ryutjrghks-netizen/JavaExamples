@@ -32,6 +32,8 @@ public class MultidimensionalArrayByNewExample {
 		System.out.println("전체 학생의 수학 평균: " + totalMathAvg);
 		System.out.println();
 		
+		
+		
 		// 각 반의 학생 수가 다른 경우 정수 저장을 위한 2차원 배열 생성
 		int[][] englishScores = new int[2][];
 		englishScores[0] = new int[2];
